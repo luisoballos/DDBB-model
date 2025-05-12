@@ -1,0 +1,7 @@
+[alembic_version]
+    *version_num {label:"VARCHAR(32)"}
+[user]
+    *id {label:"INTEGER"}
+    email {label:"VARCHAR(120)"}
+    is_active {label:"BOOLEAN"}
+    password {label:"VARCHAR(80)"}
